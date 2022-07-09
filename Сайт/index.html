@@ -1,0 +1,40 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoJS</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <h1>Todo.js</h1>
+        </header>
+
+        <ul id="todo-list">
+            <li class="todo-item">
+                <div class="todo-item__preview">
+                    <input class="checkbox" type="checkbox">
+                    <label class="title">Изучить JavaScript</label>
+                    <input class="textfield" type="text">
+                </div>
+                <div class="todo-item__settings">
+                    <button class="edit">Изменить</button>
+                    <button class="delete">Удалить</button>
+                </div>
+            </li>
+        </ul>
+
+        <form id="todo-form">
+            <input id="add-input" type="text">
+            <button id="add-button" type="submit">Добавить</button>
+        </form>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
